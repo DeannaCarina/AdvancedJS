@@ -105,50 +105,58 @@ console.log(sum)
 
 
 // -------------------------------------------Destructuring objects
-let jobs = {
-    Mike: "Stores Assistant",
-    Debra: "Housewife",
-    Tom: "DevOps Engineer",
-    Deanna: "Radiology AP",
-};
-let {Mike, Debra, Tom, Deanna} = jobs;
-console.log(Mike, Debra, Tom, Deanna);
+// let jobs = {
+//     Mike: "Stores Assistant",
+//     Debra: "Housewife",
+//     Tom: "DevOps Engineer",
+//     Deanna: "Radiology AP",
+// };
+// let {Mike, Debra, Tom, Deanna} = jobs;
+// console.log(Mike, Debra, Tom, Deanna);
 
 // -------------------------------------------Destructuring subsets
-let languages = ["English", "French", "Spanish", "German", "Russian"];
-let [MelodyNative, MelodySecondary] = languages;
-console.log(MelodyNative, MelodySecondary);
+// let languages = ["English", "French", "Spanish", "German", "Russian"];
+// let [MelodyNative, MelodySecondary] = languages;
+// console.log(MelodyNative, MelodySecondary);
 
-let [, , EmmaNative, EmmaSecondary] = languages;
-console.log(EmmaNative, EmmaSecondary);
+// let [, , EmmaNative, EmmaSecondary] = languages;
+// console.log(EmmaNative, EmmaSecondary);
 
 
-let languages2 = {
-    firstLanguage: "Italian",
-    secondLanguage: "Portugese",
-    thirdLanguage: "Chinese",
-    fourthLanguage: "Polish",
-    fifthLanguage: "Dutch",
-}
+// let languages2 = {
+//     firstLanguage: "Italian",
+//     secondLanguage: "Portugese",
+//     thirdLanguage: "Chinese",
+//     fourthLanguage: "Polish",
+//     fifthLanguage: "Dutch",
+// }
 
-let {firstLanguage, secondLanguage} = languages2;
-console.log(firstLanguage, secondLanguage);
+// let {firstLanguage, secondLanguage} = languages2;
+// console.log(firstLanguage, secondLanguage);
 
 // -------------------------------------------Using rest parameter syntax
 
-let fruits = ["apple", "peach", "banana", "cherry", "orange"];
-let [favourite, secondFavourite, ...others] = fruits;
-console.log(favourite, secondFavourite, others); 
+// let fruits = ["apple", "peach", "banana", "cherry", "orange"];
+// let [favourite, secondFavourite, ...others] = fruits;
+// console.log(favourite, secondFavourite, others); 
 
-let favouriteFoods = {
-    Lesley: "pizza",
-    Sadia: "cake",
-    Jess: "pasta",
-    Jenna: "sushi",
-    Gen: "rice",
-};
-let {Lesley, Sadia, Jess, ...rest} = favouriteFoods;
-console.log("Lesley:", Lesley);
-console.log("Sadia:", Sadia);
-console.log("Jess:", Jess);
-console.log(rest);
+// let favouriteFoods = {
+//     Lesley: "pizza",
+//     Sadia: "cake",
+//     Jess: "pasta",
+//     Jenna: "sushi",
+//     Gen: "rice",
+// };
+// let {Lesley, Sadia, Jess, ...rest} = favouriteFoods;
+// console.log("Lesley:", Lesley);
+// console.log("Sadia:", Sadia);
+// console.log("Jess:", Jess);
+// console.log(rest);
+
+
+
+
+
+// MANIPULATING THE DOM-----------------------------------------------
+
+console.log('Hello World');
